@@ -1,0 +1,52 @@
+public function run():void{
+\App\Models\page3::create(
+  [
+    'topicscope'=>'fashion',
+    'description'=>'aesthetic',
+    'images'=>'images/vintage1.png',
+  ]);
+  \App\Models\page3::create(
+    [
+      'topicscope'=>'fashion',
+      'description'=>'vintage',
+      'images'=>'images/vintage2.png',
+    ]);
+    \App\Models\page3::create(
+      [
+        'topicscope'=>'fashion',
+        'description'=>'datenight',
+        'images'=>'images/date.png',
+      ]);
+      \App\Models\page3::create(
+        [
+          'topicscope'=>'fashion',
+          'description'=>'brown',
+          'images'=>'images/brown.png',
+        ]);
+        \App\Models\page3::create(
+          [
+            'topicscope'=>'fashion',
+            'description'=>'vintage',
+            'images'=>'images/vintage3.png',
+          ]);
+          \App\Models\page3::create(
+            [
+              'topicscope'=>'fashion',
+              'description'=>'vintage',
+              'images'=>'images/vintage4.png',
+            ]);
+            \App\Models\page3::create(
+              [
+                'topicscope'=>'fashion',
+                'description'=>'plussize',
+                'images'=>'images/plussize.png.png',
+              ]);
+              \App\Models\page3::create(
+                [
+                  'topicscope'=>'fashion',
+                  'description'=>'school',
+                  'images'=>'images/school.png',
+                ]);
+
+    }
+}
