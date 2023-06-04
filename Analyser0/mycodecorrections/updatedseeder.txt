@@ -1,0 +1,94 @@
+<?php
+
+namespace Database\Seeders;
+
+
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+
+use Illuminate\Database\Seeder;
+use Illuminate\Foundation\Auth\User;
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     */
+    public function run(): void
+    {
+     
+\App\Models\page3::create(
+  [
+    'topicscope'=>'fashion',
+    'description'=>'aesthetic',
+    'images'=>'images/vintage1.png',
+  ]);
+  \App\Models\page3::create(
+    [
+      'topicscope'=>'fashion',
+      'description'=>'vintage',
+      'images'=>'images/vintage2.png',
+    ]);
+    \App\Models\page3::create(
+      [
+        'topicscope'=>'fashion',
+        'description'=>'datenight',
+        'images'=>'images/date.png',
+      ]);
+      \App\Models\page3::create(
+        [
+          'topicscope'=>'fashion',
+          'description'=>'brown',
+          'images'=>'images/brown.png',
+        ]);
+        \App\Models\page3::create(
+          [
+            'topicscope'=>'fashion',
+            'description'=>'vintage',
+            'images'=>'images/vintage3.png',
+          ]);
+          \App\Models\page3::create(
+            [
+              'topicscope'=>'fashion',
+              'description'=>'vintage',
+              'images'=>'images/vintage4.png',
+            ]);
+            \App\Models\page3::create(
+              [
+                'topicscope'=>'fashion',
+                'description'=>'plussize',
+                'images'=>'images/plussize.png.png',
+              ]);
+              \App\Models\page3::create(
+                [
+                  'topicscope'=>'fashion',
+                  'description'=>'school',
+                  'images'=>'images/school.png',
+                ]);
+                \App\Models\page3::create(
+                  [
+                    'topicscope'=>'food',
+                    'description'=>'vegetables',
+                    'images'=>'images/vegetables.jpg',
+                  ]);
+                  \App\Models\page3::create(
+                    [
+                      'topicscope'=>'food',
+                      'description'=>'fruits',
+                      'images'=>'images/fruits.jpg',
+                    ]);
+                    \App\Models\page3::create(
+                      [
+                        'topicscope'=>'food',
+                        'description'=>'proteins',
+                        'images'=>'images/proteins.jpg',
+                      ]);
+                      \App\Models\page3::create(
+                        [
+                          'topicscope'=>'food',
+                          'description'=>'Carbohydrates',
+                          'images'=>'images/cabs.png',
+                        ]);
+
+    }
+}
